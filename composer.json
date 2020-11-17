@@ -1,5 +1,5 @@
 {
-    "name": "azizi/packages",
+    "name": "azizi/laraperm",
     "description": "a roles permisions  for laravel",
     "type": "library",
     "license": "MIT",
@@ -16,7 +16,14 @@
             "database"
         ],
         "psr-4": {
-            "Azizi\\Laraperm" : "packages/src"
+            "Azizi\\Laraperm\\":"src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Azizi\\Laraperm\\LarapermServiceProvider"
+            ]
         }
     }
 }
