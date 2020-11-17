@@ -1,0 +1,22 @@
+{
+    "name": "azizi/packages",
+    "description": "a roles permisions  for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alireza Azizi",
+            "email": "dev.azizimail@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "Azizi\\Laraperm" : "packages/src"
+        }
+    }
+}
